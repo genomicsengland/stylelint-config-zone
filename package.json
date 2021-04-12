@@ -1,6 +1,6 @@
 {
   "name": "@zonedigital/stylelint-config-zone",
-  "version": "4.3.0",
+  "version": "4.0.0",
   "description": "This package provides Zone's CSS style guide as an extensible shared config.",
   "main": "index.js",
   "repository": "github:zone/frontend",
@@ -13,22 +13,19 @@
     "stylelint-config",
     "stylelintrc"
   ],
-  "files": [
-    "index.js"
-  ],
   "publishConfig": {
     "access": "public"
   },
   "engines": {
-    "node": "^8 || ^10 || ^12"
+    "node": "^8 || ^10 || ^11"
   },
   "dependencies": {
     "stylelint-config-standard": "^18.2.0"
   },
   "devDependencies": {
-    "stylelint": "^10.0.1"
+    "stylelint": "^9.5.0"
   },
   "peerDependencies": {
-    "stylelint": "^10.0.1"
+    "stylelint": "^9.0.0"
   }
 }
