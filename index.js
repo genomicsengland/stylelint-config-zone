@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['stylelint-config-standard', 'stylelint-prettier/recommended'],
+  extends: 'stylelint-config-standard',
   rules: {
     'at-rule-empty-line-before': [
       'always',
@@ -19,4 +19,4 @@ module.exports = {
     'selector-attribute-quotes': 'always',
     'string-quotes': 'single',
   },
-};
+}

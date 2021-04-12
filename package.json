@@ -1,10 +1,10 @@
 {
   "name": "@zonedigital/stylelint-config-zone",
-  "version": "5.2.0",
+  "version": "4.3.0",
   "description": "This package provides Zone's CSS style guide as an extensible shared config.",
   "main": "index.js",
   "repository": "github:zone/frontend",
-  "author": "Mike Simmonds (https://mike.id)",
+  "author": "Mike Simmonds (https://simmo.codes)",
   "license": "MIT",
   "bugs": "https://github.com/zone/frontend/issues",
   "homepage": "https://github.com/zone/frontend/tree/master/packages/stylelint-config-zone#readme",
@@ -20,19 +20,15 @@
     "access": "public"
   },
   "engines": {
-    "node": ">=10"
+    "node": "^8 || ^10 || ^12"
   },
   "dependencies": {
-    "stylelint-config-prettier": "^8.0.0",
-    "stylelint-config-standard": "^20.0.0",
-    "stylelint-prettier": "^1.1.1"
+    "stylelint-config-standard": "^18.2.0"
   },
   "devDependencies": {
-    "prettier": "^2.0.4",
-    "stylelint": "^13.1.0"
+    "stylelint": "^10.0.1"
   },
   "peerDependencies": {
-    "prettier": "^2.0.0",
-    "stylelint": "^13.1.0"
+    "stylelint": "^10.0.1"
   }
 }
